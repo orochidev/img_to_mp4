@@ -9,3 +9,7 @@ Na pasta onde se encontra o arquivo que deseja converter, use o comando:
 img_to_mp4 nome_do_arquivo
 
 Testado com .jpg e .png
+-----------------------
+
+Para converter arquivos em massa, use:
+find -name "*.jpg" -exec img_to_mp4 {} \;
